@@ -1,9 +1,9 @@
-package InMemorymodel;
+package seminar_1.InMemorymodel;
 
-import ModelElements.Camera;
-import ModelElements.Flash;
-import ModelElements.PolygonalModel;
-import ModelElements.Scene;
+import seminar_1.ModelElements.Camera;
+import seminar_1.ModelElements.Flash;
+import seminar_1.ModelElements.PolygonalModel;
+import seminar_1.ModelElements.Scene;
 
 import java.util.List;
 

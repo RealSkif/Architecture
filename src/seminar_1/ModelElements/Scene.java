@@ -1,4 +1,4 @@
-package ModelElements;
+package seminar_1.ModelElements;
 
 import java.util.List;
 

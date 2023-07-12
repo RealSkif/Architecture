@@ -1,7 +1,7 @@
-package ModelElements;
+package seminar_1.ModelElements;
 
-import Stuff.Angle3D;
-import Stuff.Point3D;
+import seminar_1.Stuff.Angle3D;
+import seminar_1.Stuff.Point3D;
 
 import java.util.List;
 
