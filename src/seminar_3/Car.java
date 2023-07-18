@@ -57,7 +57,16 @@ public abstract class Car {
      * */
     public Car() {
     }
-
+    /**
+      @param brand - марка автомобиля
+      @param model - модель автомобиля
+      @param color - цвет автомобиля
+      @param bodyType - тип кузова автомобиля
+      @param wheelsNumber - количество колес автомобиля
+      @param fuelType - используемый тип топлива
+      @param transmissionType - тип трансмиссии автомобиля
+      @param engineCapacity - объем двигателя автомобиля
+      */
     public Car(String brand, String model, Color color, String bodyType,
                int wheelsNumber, String fuelType, String transmissionType,
                double engineCapacity) {
