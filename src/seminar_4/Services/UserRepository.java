@@ -1,8 +1,8 @@
-package Seminar_4.Services;
+package seminar_4.Services;
 
 
-import Seminar_4.Interfaces.IUserRepo;
-import Seminar_4.Models.User;
+import seminar_4.Interfaces.IUserRepo;
+import seminar_4.Models.User;
 
 import java.util.ArrayList;
 import java.util.List;

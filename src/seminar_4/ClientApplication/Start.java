@@ -1,9 +1,9 @@
-package Seminar_4.ClientApplication;
+package seminar_4.ClientApplication;
 
 
-import Seminar_4.Core.Customer;
-import Seminar_4.Interfaces.ICustomer;
-import Seminar_4.Models.Ticket;
+import seminar_4.Core.Customer;
+import seminar_4.Interfaces.ICustomer;
+import seminar_4.Models.Ticket;
 
 import java.util.Date;
 import java.util.List;

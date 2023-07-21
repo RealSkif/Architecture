@@ -1,4 +1,4 @@
-package Seminar_4.ClientApplication;
+package seminar_4.ClientApplication;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

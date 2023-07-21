@@ -1,8 +1,8 @@
-package Seminar_4.Services;
+package seminar_4.Services;
 
 
-import Seminar_4.Interfaces.ICashRepo;
-import Seminar_4.Models.BankAccount;
+import seminar_4.Interfaces.ICashRepo;
+import seminar_4.Models.BankAccount;
 
 import java.util.ArrayList;
 import java.util.List;

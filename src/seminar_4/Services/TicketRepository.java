@@ -1,8 +1,8 @@
-package Seminar_4.Services;
+package seminar_4.Services;
 
 
-import Seminar_4.Interfaces.ITicketRepo;
-import Seminar_4.Models.Ticket;
+import seminar_4.Interfaces.ITicketRepo;
+import seminar_4.Models.Ticket;
 
 import java.text.SimpleDateFormat;
 import java.util.*;

@@ -1,4 +1,4 @@
-package Seminar_4.Interfaces;
+package seminar_4.Interfaces;
 
 /**
  * Интерфейс взаимодействия с базой банковских операций

@@ -1,9 +1,9 @@
-package Seminar_4.Core;
+package seminar_4.Core;
 
 
-import Seminar_4.Interfaces.IUserRepo;
-import Seminar_4.Models.User;
-import Seminar_4.Services.UserRepository;
+import seminar_4.Interfaces.IUserRepo;
+import seminar_4.Models.User;
+import seminar_4.Services.UserRepository;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package Seminar_4.Interfaces;
+package seminar_4.Interfaces;
 
 
-import Seminar_4.Models.User;
+import seminar_4.Models.User;
 
 import java.util.List;
 

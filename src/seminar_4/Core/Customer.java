@@ -1,9 +1,9 @@
-package Seminar_4.Core;
+package seminar_4.Core;
 
 
-import Seminar_4.Interfaces.ICustomer;
-import Seminar_4.Models.Ticket;
-import Seminar_4.Models.User;
+import seminar_4.Interfaces.ICustomer;
+import seminar_4.Models.Ticket;
+import seminar_4.Models.User;
 
 import java.util.ArrayList;
 import java.util.Date;

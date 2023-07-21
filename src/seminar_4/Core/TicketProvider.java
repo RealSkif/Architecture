@@ -1,12 +1,9 @@
-package Seminar_4.Core;
+package seminar_4.Core;
 
 
-import Seminar_4.Interfaces.ITicketRepo;
-import Seminar_4.Models.Ticket;
-import Seminar_4.Services.TicketRepository;
-
-import java.util.ArrayList;
-import java.util.List;
+import seminar_4.Interfaces.ITicketRepo;
+import seminar_4.Models.Ticket;
+import seminar_4.Services.TicketRepository;
 
 /**
  * Класс - провайдер для работы с базой данных билетов

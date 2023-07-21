@@ -1,4 +1,4 @@
-package Seminar_4.Models;
+package seminar_4.Models;
 
 /**
  * Модель банковского аккаунта

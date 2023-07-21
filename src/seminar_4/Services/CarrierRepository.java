@@ -1,8 +1,8 @@
-package Seminar_4.Services;
+package seminar_4.Services;
 
 
-import Seminar_4.Interfaces.ICarrierRepo;
-import Seminar_4.Models.Carrier;
+import seminar_4.Interfaces.ICarrierRepo;
+import seminar_4.Models.Carrier;
 
 import java.util.ArrayList;
 import java.util.List;

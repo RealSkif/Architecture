@@ -1,13 +1,13 @@
-package Seminar_4.Core;
+package seminar_4.Core;
 
 
-import Seminar_4.Interfaces.ICarrierRepo;
-import Seminar_4.Interfaces.ICashRepo;
-import Seminar_4.Models.Carrier;
-import Seminar_4.Models.Ticket;
-import Seminar_4.Models.User;
-import Seminar_4.Services.CarrierRepository;
-import Seminar_4.Services.CashRepository;
+import seminar_4.Interfaces.ICarrierRepo;
+import seminar_4.Interfaces.ICashRepo;
+import seminar_4.Models.Carrier;
+import seminar_4.Models.Ticket;
+import seminar_4.Models.User;
+import seminar_4.Services.CarrierRepository;
+import seminar_4.Services.CashRepository;
 
 /**
  * Класс - провайдер для взаимодействия с банком и базой перевозчиков

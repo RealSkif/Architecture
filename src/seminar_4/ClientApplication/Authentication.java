@@ -1,8 +1,8 @@
-package Seminar_4.ClientApplication;
+package seminar_4.ClientApplication;
 
 
-import Seminar_4.Core.UserProvider;
-import Seminar_4.Models.User;
+import seminar_4.Core.UserProvider;
+import seminar_4.Models.User;
 
 /**
  * Класс аутентификации пользователя
