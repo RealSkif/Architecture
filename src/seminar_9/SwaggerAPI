@@ -1,0 +1,97 @@
+openapi: 3.0.3
+info:
+  title: Cloud App API
+  description: Test api for Cloud App
+
+  version: 1.0.11
+
+servers:
+  - url: https://cloudapp.io
+
+paths:
+  /vps/{vpsid}:
+    post:
+      tags:
+        - vps
+      summary: Updates a vps info with form data
+      description: ''
+      operationId: updateVpsWithForm
+      parameters:
+        - name: vpsid
+          in: path
+          description: ID of vps that needs to be updated
+          required: true
+          schema:
+            type: integer
+            format: int64
+        - name: ram
+          in: query
+          description: Amount of ram for vps
+          required: true
+          schema:
+             type: integer
+             format: int64
+        - name: cpu
+          in: query
+          description: Amount of cpu for vps
+          required: true
+          schema:
+             type: integer
+             format: int32
+        - name: storage
+          in: query
+          description: Amount of storage for vps
+          required: true
+          schema:
+             type: integer
+             format: int64
+        - name: os
+          in: query
+          description: os of vps
+          required: true
+          schema:
+             type: string
+        - name: ip
+          in: query
+          description: ip of vps
+          required: true
+          schema:
+             type: string
+      responses:
+        '405':
+          description: Invalid input
+
+components:
+  schemas:
+    VPS:
+      required:
+        - name
+        - ram
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+        server_id:
+          type: integer
+          format: int64
+          example: 10
+        ram:
+          type: integer
+          format: int64
+          example: 32
+        cpu:
+          type: integer
+          format: int32
+          example: 16
+        storage:
+          type: integer
+          format: int32
+          example: 1024
+        os:
+          type: string
+          example: Windows 11
+        ip:
+          type: string
+          example: 192.168.0.0
